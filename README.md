@@ -12,3 +12,16 @@ When developers or enterprise users hit complex cloud ecosystem orchestration er
 - **Microsoft Agent Framework** (Multi-agent routing pipeline)
 - **Azure MCP Pattern** (Secure tool gateway execution)
 - **Python** & **GitHub Copilot** (Development velocity)
+
+## Architecture Diagram
+```mermaid
+graph TD
+    A[User Error Input: AADSTS50020] --> B[Microsoft Agent Framework Orchestrator]
+    B --> C[Agent 1: Diagnostic Agent]
+    C -->|Evaluates Root Cause via Microsoft Foundry LLM| D[Reasoning Sandbox]
+    D --> E[Agent 2: Remediation Agent]
+    E -->|Formulates Action Blueprint| F[Azure MCP Server Gateway]
+    F -->|Simulates System Tool Execution| G[System Fix Successfully Verified]
+
+    style B fill:#f9f,stroke:#333,stroke-width:2px
+    style F fill:#bbf,stroke:#333,stroke-width:2px
