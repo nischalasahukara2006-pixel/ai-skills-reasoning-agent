@@ -25,3 +25,12 @@ graph TD
 
   style B fill:#f9f,stroke:#333,stroke-width:2px,color:#000
     style F fill:#bbf,stroke:#333,stroke-width:2px,color:#000
+```
+## Setup and Execution Guide
+To simulate the multi-agent reasoning diagnostics loop locally:
+1. Ensure you have Python 3.x installed on your system.
+2. Download the `agent.py` file from this repository.
+3. Open your terminal, navigate to the file directory, and run the execution command:
+```bash
+   python agent.py
+```
