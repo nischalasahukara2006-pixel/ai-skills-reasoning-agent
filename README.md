@@ -23,5 +23,5 @@ graph TD
     E -->|Formulates Action Blueprint| F[Azure MCP Server Gateway]
     F -->|Simulates System Tool Execution| G[System Fix Successfully Verified]
 
-    style B fill:#f9f,stroke:#333,stroke-width:2px
-    style F fill:#bbf,stroke:#333,stroke-width:2px
+  style B fill:#f9f,stroke:#333,stroke-width:2px,color:#000
+    style F fill:#bbf,stroke:#333,stroke-width:2px,color:#000
