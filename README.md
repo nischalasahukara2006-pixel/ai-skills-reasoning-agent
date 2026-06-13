@@ -1,5 +1,9 @@
 # Multi-Agent Smart Troubleshooting Assistant (Reasoning Track)
 
+## 🎥 Project Demo Video
+
+You can watch our full hackathon project demonstration on YouTube here: [Watch Demo Video](https://www.youtube.com/watch?v=dYH7ZD-wdvs)
+
 ## Problem Solved
 When developers or enterprise users hit complex cloud ecosystem orchestration errors (such as `AADSTS50020`), the root cause is often difficult to pinpoint, leading to broken developer workflows and configuration drift. This project solves that by building a multi-step reasoning agent workflow to automatically diagnose structural identity errors and safely apply fixes.
 
